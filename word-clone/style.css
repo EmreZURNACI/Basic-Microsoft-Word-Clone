@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.alignCxC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mybtn {
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    border: none;
+    cursor: grab;
+}
+
+.mycontainer {
+    width: 44vw;
+    height: 70vh;
+    border: 1px solid #222;
+    border-radius: 10px;
+}
+
+body h1 {
+    font-size: 5rem !important;
+}
+
+.myproperties {
+    width: 100%;
+    height: 40%;
+    border-bottom: 1px solid #222;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.output {
+    width: 100%;
+    height: 60%;
+    padding: 2rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.topProperties {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.alignmentProp {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alignmentProp button i {
+    font-size: 1rem;
+}
+
+.textProp {
+    width: 40%;
+    display: flex;
+    gap: 0.4rem;
+    justify-content: space-evenly;
+}
+
+.dropdown button {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+    color: #222;
+}
+
+.dropdown li a {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.colorProp {
+    width: 100%;
+    height: 50px;
+    gap: 5rem;
+}
+
+.colorProp input[type="color"] {
+    border: none;
+    border-radius: 50%;
+    cursor: grab;
+}
+
+.fontColor,
+.bgColor {
+    display: flex;
+}
+
+.bgColor p {
+    margin-top: -1rem !important;
+}
+
+.fontColor p,
+.bgColor p {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.textTransforms {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 63%;
+    height: 30px; padding-left: 2rem;}
+.textTransforms button { border: none; text-align: center;padding: 0.75rem 1rem;}
+.alignmentStart { justify-content: start !important;}
+.alignmentCenter {justify-content: center !important;}
+.alignmentEnd { justify-content: end !important;}
+.mr { margin-right: 100px;}
+.ml {margin-left: 100px;}
+.TxtUnderLine { text-decoration: underline;}
+.TxtItalic {font-style: italic;}
+.upperCase {text-transform: uppercase;}
+.lowerCase {  text-transform: lowercase;}
+.fontfamilyGeorgia { font-family: Georgia, 'Times New Roman', Times, serif;}
+.fontfamilyTimesNewRoman {   font-family: 'Times New Roman', Times, serif;}
+.fontfamilyArial{font-family: Arial, Helvetica, sans-serif}
+.twoRem {font-size: 2rem !important;}
+.twoHalfRem {font-size: 2.5rem !important;}
+.threeRem {font-size: 3rem !important;}
+button:hover {opacity: 0.8;}
